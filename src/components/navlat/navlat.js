@@ -18,7 +18,7 @@ function navlat() {
 <h2><i class="fa-solid fa-bell-concierge"></i> Habitaciones</h2>
 </div>
 <div class="dash-navvert3">
-    <a href="../index.html"><h2 class="dash-navd2"><i class="fa-solid fa-arrow-right-from-bracket"></i> Cerrar Sesión</h2></a>
+    <a href="/"><h2 class="dash-navd2"><i class="fa-solid fa-arrow-right-from-bracket"></i> Cerrar Sesión</h2></a>
 </div>
 </nav>
 <nav class="dash-navvertv2">

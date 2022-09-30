@@ -56,7 +56,7 @@ function form() {
             <a href="#miModal"><h1><input type="checkbox"/>Terminos y Condiciones</h1></a>
         </div>
         <div class="form-but">
-            <a href="login.html"><h2>Ingresar</h2> </a>
+            <a href="/Login"><h2>Ingresar</h2> </a>
         </div>
 
 <div>
@@ -165,7 +165,7 @@ function form() {
     </div>
 
             <div class="form-but">
-                <a href="login.html"><h2>Ingresar</h2> </a>
+                <a href="/Login"><h2>Ingresar</h2> </a>
             </div>
         </div>
         </div>

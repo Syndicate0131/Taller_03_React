@@ -1,18 +1,47 @@
-import React from 'react';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/home/home';
 import Ini from './pages/ini/ini';
-import Formul from './pages/formulario/formulario';
 import Dashboard from './pages/dashboard/dashboard';
+import Formulario from "./pages/formulario/formulario";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <Home />
+    ),
+  },
+  {
+    path: "Formulario",
+    element: 
+      <Formulario />
+  },
+  {
+    path: "Login",
+    element: 
+      <Ini />
+  },
+  {
+    path: "Dashboard",
+    element: 
+      <Dashboard />
+  },
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
-    <Ini />
-    <Formul />
-    <Dashboard />
+      <RouterProvider router={router} />
   </React.StrictMode>
 );
 
