@@ -11,13 +11,13 @@
     --speed: 2s;
 }
 
-* {
+.error-prin * {
     box-sizing: border-box;
     transform-style: preserve-3d;
 }
 
 
-body {
+.error.prin {
     min-height: 100vh;
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -29,7 +29,7 @@ body {
     perspective: 1200px;
 }
 
-a {
+.error-prin a {
     text-transform: uppercase;
     text-decoration: none;
     background: var(--button);
@@ -40,11 +40,11 @@ a {
     letter-spacing: 0.05rem;
 }
 
-p {
+.error-prin p {
     font-weight: 100;
 }
 
-h1 {
+.error-prin h1 {
     -webkit-animation: swing var(--speed) infinite alternate ease-in-out;
     animation: swing var(--speed) infinite alternate ease-in-out;
     font-size: clamp(5rem, 40vmin, 20rem);
@@ -59,7 +59,7 @@ h1 {
     color: transparent;
 }
 
-h1:after {
+.error-prin h1:after {
     -webkit-animation: swing var(--speed) infinite alternate ease-in-out;
     animation: swing var(--speed) infinite alternate ease-in-out;
     content: "404";
@@ -71,7 +71,7 @@ h1:after {
     transform: scale(1.05) translate3d(0, 12%, -10vmin) translate(calc((var(--swing-x, 0) * 0.05) * 1%), calc((var(--swing-y) * 0.05) * 1%));
 }
 
-.cloak {
+.error-prin .cloak {
     animation: swing var(--speed) infinite alternate-reverse ease-in-out;
     height: 100%;
     width: 100%;
@@ -80,7 +80,7 @@ h1:after {
     background: radial-gradient(40% 40% at 50% 42%, transparent, #000 35%);
 }
 
-.cloak__wrapper {
+.error-prin .cloak__wrapper {
     position: fixed;
     top: 0;
     left: 0;
@@ -89,7 +89,7 @@ h1:after {
     overflow: hidden;
 }
 
-.cloak__container {
+.error-prin .cloak__container {
     height: 250vmax;
     width: 250vmax;
     position: absolute;
@@ -98,7 +98,9 @@ h1:after {
     transform: translate(-50%, -50%);
 }
 
-.info {
+.error-prin .info {
+    margin-left: 40rem;
+    color: var(--color);
     text-align: center;
     line-height: 1.5;
     max-width: clamp(16rem, 90vmin, 25rem);

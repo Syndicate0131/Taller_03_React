@@ -8,7 +8,7 @@ function form() {
                     <h1>Regístrate</h1>
                 </div>
                 <div className="columnas">
-                    <form className="registrar" action="login.html" method="post">
+                    <form className="registrar" method="post">
                         <div className="col">
                             <div className="col-1">
                                 <div>
@@ -73,7 +73,7 @@ function form() {
                                 <input type="checkbox" name="check" id="check" value="1" />
                                 <label for="check">Acepta Terminos y Condiciones</label>
                             </div>
-                            <button type="submit"><a href="/login" style={{ color: 'white' }}>Ingresar</a></button>
+                            <button type="submit"><a href="/Login" style={{ color: 'white' }}>Ingresar</a></button>
                         </div>
                     </form>
                 </div>
