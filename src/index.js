@@ -1,14 +1,11 @@
 import React from "react";
-import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
+  RouterProvider
 } from "react-router-dom";
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Home from './pages/home/home';
+import Home from './pages/home/Home';
 import Ini from './pages/ini/ini';
 import Dashboard from './pages/dashboard/dashboard';
 import Formulario from "./pages/formulario/formulario";

@@ -5,7 +5,7 @@ import Form from '../../components/form/form';
 function Formulario() {
     return (
         
-        <main class="form-main">
+        <main className='dash'>
         <Navlat />
         <Form />
         </main>
