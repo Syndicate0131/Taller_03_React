@@ -9,6 +9,7 @@ import Home from './pages/home/Home';
 import Ini from './pages/ini/ini';
 import Dashboard from './pages/dashboard/dashboard';
 import Formulario from "./pages/formulario/formulario";
+import Page404 from "./pages/Page404";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,11 @@ const router = createBrowserRouter([
     element: 
       <Dashboard />
   },
+  {
+    path: "*",
+    element: 
+      <Page404 />
+  }
 ]);
 
 
